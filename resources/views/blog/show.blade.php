@@ -14,4 +14,5 @@
 
     <a href="{{ route('blogs.index') }}" class="inline-block mt-6 text-blue-500 hover:underline">Back to Blog List</a>
 </div>
+@include('footer.join')
 @endsection

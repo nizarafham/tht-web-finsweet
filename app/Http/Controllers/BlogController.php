@@ -70,7 +70,7 @@ class BlogController extends Controller
 
     public function home()
     {
-        $blogs = collect($this->blogs)->take(3); // Ambil 3 posting terbaru
+        $blogs = collect($this->blogs)->take(3); 
         return view('home.index', ['blogs' => $blogs]);
     }
 }

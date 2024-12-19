@@ -1,18 +1,3 @@
-<div class="flex flex-col items-center justify-center h-screen bg-white px-4">
-    <!-- Judul -->
-    <h1 class="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-4">
-        Join our team to be a part <br> of our story
-    </h1>
-    <!-- Deskripsi -->
-    <p class="text-gray-500 text-center text-sm md:text-base mb-6 max-w-md">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
-    </p>
-    <!-- Tombol -->
-    <a href="#"
-       class="bg-yellow-400 text-black font-semibold px-6 py-3 rounded-lg hover:bg-yellow-500 transition duration-300 shadow-md">
-        Join Now
-    </a>
-</div>
 <footer class="bg-gray-900 text-white py-8">
     <div class="container mx-auto px-6 md:px-12">
         <div class="flex flex-wrap justify-between items-center border-b border-gray-700 pb-8">
@@ -24,7 +9,7 @@
                     <li><a href="{{route('home')}}" class="hover:text-gray-400">Home</a></li>
                     <li><a href="{{route('blogs.index')}}" class="hover:text-gray-400">Blog</a></li>
                     <li><a href="#" class="hover:text-gray-400">About us</a></li>
-                    <li><a href="#" class="hover:text-gray-400">Contact us</a></li>
+                    <li><a href="{{route('profile')}}" class="hover:text-gray-400">Profile</a></li>
                     <li><a href="#" class="hover:text-gray-400">Privacy Policy</a></li>
                 </ul>
             </nav>

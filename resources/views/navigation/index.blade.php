@@ -7,7 +7,7 @@
                 <li><a href="{{route('home')}}" class="hover:text-gray-400">Home</a></li>
                 <li><a href="{{route('blogs.index')}}" class="hover:text-gray-400">Blog</a></li>
                 <li><a href="#" class="hover:text-gray-400">About Us</a></li>
-                <li><a href="#" class="hover:text-gray-400">Contact Us</a></li>
+                <li><a href="{{route('profile')}}" class="hover:text-gray-400">Profile</a></li>
             </ul>
         </nav>
         <div>
